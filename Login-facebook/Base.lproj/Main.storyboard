@@ -138,6 +138,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonLineView" destination="Xju-BT-w6F" id="7PX-fK-dbX"/>
+                        <outlet property="createAccountButton" destination="WZ7-cz-PkQ" id="VQ7-dj-mph"/>
+                        <outlet property="forgotenPasswordButton" destination="SHp-Ph-5YW" id="0f3-Zu-TlT"/>
+                        <outlet property="headerImageView" destination="p1K-8E-v7W" id="sE9-2S-J5e"/>
+                        <outlet property="initSessionButton" destination="gbZ-fA-IEH" id="Py4-yI-gKg"/>
+                        <outlet property="loginDataView" destination="Edv-ZY-Be6" id="dCy-O4-LEy"/>
+                        <outlet property="loginLineDataView" destination="t0t-B1-qw4" id="yvD-Bf-bmH"/>
+                        <outlet property="logoImageView" destination="ieI-5Y-u6T" id="LeN-ir-AEx"/>
+                        <outlet property="orLabel" destination="d5I-Hq-qQo" id="kti-4L-Bvi"/>
+                        <outlet property="passwordTextField" destination="k9j-tA-meQ" id="b94-CZ-wVe"/>
+                        <outlet property="userTextField" destination="Hlh-Ig-6VS" id="YQE-bf-9Cy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
