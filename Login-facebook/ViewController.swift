@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     private let primaryColor = UIColor(displayP3Red: 56/255, green: 117/255, blue: 233/255, alpha: 1)
     private let secondaryColor = UIColor(displayP3Red: 173/255, green: 202/255, blue: 250/255, alpha: 1)
-    private let tertiaryColor = UIColor(displayP3Red: 254/255, green: 254/255, blue: 254/255, alpha: 1)
+    private let tertiaryColor = UIColor(displayP3Red: 200/255, green: 200/255, blue: 200/255, alpha: 1)
     
     
     override func viewDidLoad() {
@@ -33,6 +33,27 @@ class ViewController: UIViewController {
         logoImageView.layer.cornerRadius = logoImageView.bounds.height / 2
         logoImageView.clipsToBounds = true
         
+        loginDataView.layer.borderColor = tertiaryColor.cgColor
+        loginDataView.layer.borderWidth = 1
+        loginDataView.layer.cornerRadius = 3
+        loginDataView.clipsToBounds = true
+        
+        initSessionButton.backgroundColor = primaryColor
+        initSessionButton.setTitleColor(tertiaryColor, for: .normal)
+        initSessionButton.layer.cornerRadius = 5
+        initSessionButton.clipsToBounds = true
+        
+        forgotenPasswordButton.setTitleColor(primaryColor, for: .normal)
+        forgotenPasswordButton.clipsToBounds = true
+        
+        createAccountButton.backgroundColor = secondaryColor
+        createAccountButton.setTitleColor(primaryColor, for: .normal)
+        createAccountButton.layer.cornerRadius = 5
+        createAccountButton.clipsToBounds = true
+        
+        loginLineDataView.backgroundColor = tertiaryColor
+        
+        buttonLineView.backgroundColor = tertiaryColor
         
     }
 
